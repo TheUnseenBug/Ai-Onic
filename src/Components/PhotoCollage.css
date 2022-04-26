@@ -1,0 +1,15 @@
+.photo-row {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.foo {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+}

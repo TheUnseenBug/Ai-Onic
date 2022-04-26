@@ -1,0 +1,19 @@
+.navbar {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  border-bottom: 2px solid #1b1b1b;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+}
+
+.tiktok {
+  width: 50px;
+}
+
+.discord {
+  width: 50px;
+}

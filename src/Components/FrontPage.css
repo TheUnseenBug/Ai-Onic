@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.top img {
+  padding-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  width: 600px;
+}
+.container {
+  position: relative;
+}
+.container img {
+  min-width: 100%;
+  max-width: 100%;
+  z-index: -1;
+}
+
+form {
+  position: absolute;
+  top: 260px;
+  left: 217.5px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button input {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  width: 700px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid #e6a15394;
+  background-color: #ffffff59;
+}
