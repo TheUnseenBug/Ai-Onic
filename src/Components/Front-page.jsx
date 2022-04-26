@@ -24,8 +24,11 @@ function FrontPage() {
         </form>
       </div>
       <div className="text">
-        <h1>Welcome to Ai-Onic</h1>
-        <p>Ai-Onic is a xyz game where you can xyz</p>
+        <h1 className="welcome">Welcome to Ai-Onic</h1>
+        <p className="details">
+          Ai-Onic is a strategic building action game where you build around
+          your core. Defend against enemy attackers and attack them.!
+        </p>
       </div>
       <PhotoCollage />
     </>

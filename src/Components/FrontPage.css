@@ -24,6 +24,7 @@ body {
 }
 .container {
   position: relative;
+  margin-bottom: 40px;
 }
 .container img {
   min-width: 100%;
@@ -57,4 +58,31 @@ form {
 
 .text {
   color: white;
+}
+
+.welcome {
+  font-size: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1b1b1b61;
+  margin-bottom: 20px;
+}
+
+.details {
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    width: 100%;
+  }
 }
