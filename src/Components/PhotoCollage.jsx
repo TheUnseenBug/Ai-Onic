@@ -49,17 +49,6 @@ function PhotoCollage() {
                 />
               </PhotoView>
             </div>
-            {/* <PhotoView key={index} src={item}>
-                <img
-                  src={item}
-                  alt=""
-                  style={{
-                    width: "500px",
-                    maxWidth: "100%",
-                    display: "grid",
-                  }}
-                />
-              </PhotoView> */}
           </div>
         </div>
       </PhotoProvider>

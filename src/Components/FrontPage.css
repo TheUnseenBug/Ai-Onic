@@ -5,17 +5,13 @@
   font-family: "Roboto", sans-serif;
 }
 
-.top img {
-  padding-bottom: 20px;
-}
-
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .logo img {
-  width: 600px;
+  height: 300px;
 }
 .container {
   position: relative;
@@ -28,8 +24,8 @@
 
 form {
   position: absolute;
-  top: 260px;
-  left: 217.5px;
+  top: 75%;
+  left: 7%;
 }
 
 .button {
@@ -42,8 +38,8 @@ form {
   font-size: 22px;
   font-weight: 700;
   color: white;
-  width: 700px;
-  height: 30px;
+  width: 600px;
+  height: 40px;
   border-radius: 10px;
   border: 2px solid #e6a15394;
   background-color: #ffffff59;
