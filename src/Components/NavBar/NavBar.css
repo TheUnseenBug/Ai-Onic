@@ -1,3 +1,7 @@
+@font-face {
+  font-family: duneFont;
+  src: url(../Dune_Rise.otf);
+}
 .navbar {
   max-width: 100%;
   display: flex;
@@ -8,7 +12,7 @@
 }
 
 .title {
-  font-family: "Roboto", sans-serif;
+  font-family: duneFont;
   display: flex;
   align-items: center;
   justify-content: center;

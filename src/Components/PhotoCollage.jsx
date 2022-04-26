@@ -6,6 +6,8 @@ import screenshot1 from "./Images/Screenshot1.png";
 import screenshot2 from "./Images/Screenshot2.png";
 import screenshot3 from "./Images/Screenshot3.png";
 import screenshot4 from "./Images/Screenshot4.png";
+import character from "./Images/character.png";
+import howTo from "./Images/how-to.png";
 
 function PhotoCollage() {
   const images = [screenshot1, screenshot2, screenshot3, screenshot4];
@@ -47,6 +49,14 @@ function PhotoCollage() {
                   alt=""
                   style={{ flex: 1, width: "45%" }}
                 />
+              </PhotoView>
+            </div>
+            <div className="photo-row">
+              <PhotoView src={character}>
+                <img src={character} alt="" style={{ flex: 1, width: "45%" }} />
+              </PhotoView>
+              <PhotoView src={howTo}>
+                <img src={howTo} alt="" style={{ flex: 1, width: "45%" }} />
               </PhotoView>
             </div>
           </div>

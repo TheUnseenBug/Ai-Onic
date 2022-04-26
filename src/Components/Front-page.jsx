@@ -23,9 +23,10 @@ function FrontPage() {
           <input type="submit" value="Join now!" />
         </form>
       </div>
-
-      <h1>Welcome to Ai-Onic</h1>
-      <p>Ai-Onic is a xyz game where you can xyz</p>
+      <div className="text">
+        <h1>Welcome to Ai-Onic</h1>
+        <p>Ai-Onic is a xyz game where you can xyz</p>
+      </div>
       <PhotoCollage />
     </>
   );

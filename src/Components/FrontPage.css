@@ -2,7 +2,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: duneFont;
+  src: url(./Dune_Rise.otf);
+}
+
+body {
+  background-color: #c97c00;
+  font-family: duneFont;
 }
 
 .logo {
@@ -40,7 +49,12 @@ form {
   color: white;
   width: 600px;
   height: 40px;
-  border-radius: 10px;
-  border: 2px solid #e6a15394;
-  background-color: #ffffff59;
+  border-radius: 15px;
+  border: 2px solid #1b1b1b;
+  cursor: pointer;
+  background-color: #c97c00;
+}
+
+.text {
+  color: white;
 }
