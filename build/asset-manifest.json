@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b43a94e5.css",
+    "main.js": "/static/js/main.118076f3.js",
+    "static/media/Screenshot3.png": "/static/media/Screenshot3.76781953542b28d13f68.png",
+    "static/media/Screenshot2.png": "/static/media/Screenshot2.4324684091924eaf3726.png",
+    "static/media/Screenshot4.png": "/static/media/Screenshot4.1cdd93e27c75e6629efb.png",
+    "static/media/Screenshot1.png": "/static/media/Screenshot1.f07c9f986adedd6794d7.png",
+    "static/media/LibraryHero.png": "/static/media/LibraryHero.5acf93b19b40429e1d44.png",
+    "static/media/how-to.png": "/static/media/how-to.88a4018246340fb48cb3.png",
+    "static/media/character.png": "/static/media/character.a089f2d2583339d5f3f8.png",
+    "static/media/LibraryLogo.png": "/static/media/LibraryLogo.17e23dc8f6de2849b92f.png",
+    "static/media/Dune_Rise.otf": "/static/media/Dune_Rise.364c68a41cdafe1da287.otf",
+    "index.html": "/index.html",
+    "main.b43a94e5.css.map": "/static/css/main.b43a94e5.css.map",
+    "main.118076f3.js.map": "/static/js/main.118076f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b43a94e5.css",
+    "static/js/main.118076f3.js"
+  ]
+}
