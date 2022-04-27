@@ -118,6 +118,28 @@ form {
   }
 }
 
+@media (min-width: 500px) and (max-width: 700px) {
+  body {
+    font-size: 0.7em;
+  }
+
+  .logo img {
+    height: 150px;
+  }
+
+  form {
+    height: 10%;
+  }
+
+  .button input {
+    font-size: 1em;
+  }
+
+  .welcome {
+    font-size: 1.74em;
+  }
+}
+
 @media only screen and (min-width: 700px) {
   .logo img {
     height: 150px;
@@ -136,13 +158,29 @@ form {
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
   form {
     height: 8%;
   }
 }
 
-@media only screen and (min-width: 3000px) {
+@media only screen and (min-width: 1300px) {
+  body {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  form {
+    height: 7%;
+  }
+
+  .button input {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
   body {
     width: 70vw;
     margin-left: auto;
